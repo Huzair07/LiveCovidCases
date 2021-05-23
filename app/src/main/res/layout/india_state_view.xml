@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/id_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#8DC19A9A"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maharashtra"
+        android:id="@+id/id_text_state_name"
+        android:textSize="23sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/id_text_total"
+        android:text="Total: 1234567"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/id_text_recovered"
+            android:layout_height="wrap_content"
+            android:text="Recovered: 123456"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/id_text_deaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="Deaths: 1234567"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout></androidx.cardview.widget.CardView>
